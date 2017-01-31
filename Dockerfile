@@ -5,8 +5,8 @@ apt-get install -yqq \
 haproxy \
 ca-certificates
 
-RUN groupadd haproxy && \
-useradd -g haproxy -s /sbin/nologin -m haproxy
+#RUN groupadd haproxy && \
+#useradd -g haproxy -s /sbin/nologin -m haproxy
 
 VOLUME /data
 ENV TERM xterm
