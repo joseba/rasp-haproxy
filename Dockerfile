@@ -11,7 +11,7 @@ ca-certificates
 VOLUME /data
 ENV TERM xterm
 
-EXPOSE 80
-EXPOSE 443
+EXPOSE 8080
+EXPOSE 8443
 ENTRYPOINT []
 CMD ["haproxy", "-f", "/data/haproxy.cfg"]
