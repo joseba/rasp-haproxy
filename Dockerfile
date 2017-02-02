@@ -14,4 +14,4 @@ ENV TERM xterm
 EXPOSE 8080
 EXPOSE 8443
 ENTRYPOINT []
-CMD ["haproxy", "-f", "/data/haproxy.cfg"]
+CMD [" /usr/sbin/haproxy", "-f", "/data/haproxy.cfg","-D"]
